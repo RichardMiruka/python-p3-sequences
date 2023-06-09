@@ -7,10 +7,10 @@ def print_fibonacci(length):
         print("Invalid length. Please provide a positive integer.")
         return
     elif length == 0:
-        print([])
+        print([])      #function print_fibonacci() prints empty list when length = 0 
         return
-    elif length == 1:
-        print([0])
+    elif length == 1:         
+        print([0])     #function print_fibonacci() prints 0 when length = 1 
         return
 
     #We need to initialize the first two numbers of the sequence
